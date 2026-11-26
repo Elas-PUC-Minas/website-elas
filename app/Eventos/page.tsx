@@ -35,7 +35,8 @@ export default function Eventos() {
     location: string
   }>
 
-  const eventosWithMeta = eventosList
+  const eventosWithMeta = [...eventosList]
+    .reverse() // JSON fica do mais antigo ao mais recente; em empate de data, o último do arquivo aparece primeiro
     .map((evento) => {
       const parsedDate = parsePtBrDate(evento.date)
       const isEventPassed = parsedDate ? parsedDate.getTime() < today.getTime() : true

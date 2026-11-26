@@ -59,7 +59,7 @@ export function Footer() {
                 LinkedIn
               </a>
               <a
-                href="https://linktr.ee/elasmaismaiss"
+                href="https://elasmaismais.carrd.co/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white hover:underline transition flex items-center gap-2"

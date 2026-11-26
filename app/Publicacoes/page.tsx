@@ -87,7 +87,7 @@ export default function Publicacoes() {
 
   const publicacoesOrdenadas = useMemo(
     () =>
-      [...(publicacoes as Publicacao[])].sort((a, b) => {
+      [...(publicacoes as Publicacao[])].reverse().sort((a, b) => {
         const parsedA = parseMonthYear(a.date)
         const parsedB = parseMonthYear(b.date)
 

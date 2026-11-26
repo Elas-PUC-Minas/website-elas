@@ -214,7 +214,7 @@ export default function Home() {
                 </p>
 
                 <span className="mt-4 inline-block text-primary font-semibold transition-transform">
-                  elaspucm@gmail.com
+                  elaspucmg@gmail.com
                 </span>
               </a>
 
